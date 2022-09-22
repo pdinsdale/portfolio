@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -15,8 +16,8 @@ export default function Home() {
           Parker Dinsdale
         </h1>
 
-        <p className={styles.description}>
-          Work in progress... This might suck...
+        <p className={styles.link}>
+          <a href="/resume.pdf">Resume</a> <a/>
         </p>
       </main>
     </div>
